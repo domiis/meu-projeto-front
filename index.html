@@ -5,26 +5,91 @@
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 		<title>Exemplo básico de HTML</title>
+
+		<link rel="stylesheet" href="./css/teste.css">
+
 	</head>
+
 	<body>
-		
+	<span id="topo"></span>
 		<div class="container">
+
 			<header class="cabecalho">
 				<h1>Minha Página</h1>
 				<nav>
 					
 					<ul>
 						<li><a href="./paginas/help.html">Help</a></li>
-						<li><a href="./paginas/contact.html">Contact</a> </li>
+						<li><a href="#contact">Contact</a> </li>
 						<li><a href="./paginas/about.html">About</a> </li>
 					</ul>
 
 				</nav>
 
 			</header>
+
+			<section id="conteudo">
+				<div>
+				<h1>HELP</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sint sed aspernatur
+					cupiditate modi velit iusto soluta eligendi consequatur! Qui minus officiis inventore
+					 ipsa eligendi porro enim adipisci quod quaerat, quos suscipit facilis et commodi 
+					voluptatem ad fuga quasi placeat consequuntur excepturi magnam accusamus. Ducimus
+					sed dolore tenetur unde ea nesciunt aliquid, architecto, nulla perspiciatis non quam?
+					Unde, cupiditate consequuntur, molestias accusantium vel laudantium veritatis, alias
+					quidem reiciendis quibusdam quas fugiat eius ex est quasi repellat illo adipisci esse 
+					error deleniti velit minima. Quis, et autem nulla natus fugiat error. Velit minima 
+					excepturi eaque, maiores fugit iste iure illum! Accusantium?
+				</p>
+				<a href="./paginas/help.html">Mais...</a>
+			</div>
+			<div>
+				<h2>ABOUT</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit tempore, atque optio libero
+					nihil aliquid pariatur enim provident voluptatem delectus corrupti natus facilis laboriosam
+					nostrum ipsum! Error pariatur fugit ullam.</p>
+					<a href="./paginas/about.html">Mais...</a>
+			</div>
+			<div>
+				<div id="contact"></div>
+				<h2>CONTACT</h2>
+				<form>
+					<fieldset>
+						<legend>Customer Data</legend>
+						
+						<div>
+							<label for="idNm">Nome: </label>
+							<input type="email" name="txtNm" placeholder="digite seu email.">
+						</div>
+						<div>
+							<buton type="button">Send</buton>
+						</div>
+					</fieldset>
+					<a href="#topo">VOLTAR</a>
+				</form>
+
+			</div>
+
+			</section>
+
+			<footer id="rodape">
+				<nav>
+					<ul>
+						<li><a href="https://github.com/">GitHub</a></li>
+						<li><a href="https://www.google.com">Google</a></li>
+						<li><a href="https://www.fiap.com.br">Fiap</a></li>
+					</ul>
+				</nav>
+
+				<p>
+					&copy; Minha Página 2024 - Todos os direitos reservados.
+				</p>
+
+			</footer>
+
 		</div>
 
-		
-
 	</body>
+
 </html>

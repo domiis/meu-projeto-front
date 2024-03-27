@@ -1,10 +1,16 @@
-/*este é um comentario em css*/
 
-cabecalho h1 {
-    color: red;
+/*Este é um comentário em CSS*/
+
+
+/*Esta é uma regra CSS3*/
+h1 {
+  color: red;
 }
 
+/*Esta é uma regra CSS3*/
+
+
 .link{
-    display: inline;
-    margin: 5%
+  display: inline;
+  margin: 5%;
 }

@@ -25,3 +25,7 @@ h2 {
 div.container{
     padding: 20px;
 }
+
+section{
+    line-height: 1.5;
+}

@@ -39,3 +39,13 @@ form {
 p {
   color:green;
 }
+
+button {
+  background-color: rgb(104, 104, 255);
+  color: #fff;
+}
+
+footer{
+  border-top: 2px solid;
+  color:red;
+}

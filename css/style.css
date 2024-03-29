@@ -50,3 +50,7 @@ footer{
   border-top: 2px solid;
   color:red;
 }
+
+a{
+  font-weight: bold;
+}
